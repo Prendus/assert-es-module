@@ -1,0 +1,17 @@
+{
+  "name": "assert-es-module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "assert.js",
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "author": "Jordan Last <jordan.michael.last@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
